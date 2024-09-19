@@ -1,0 +1,361 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #081b29;
+            color: aliceblue;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10px;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 25px;
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+        }
+
+        .navbar a:hover,
+        .navbar a:active {
+            color: cyan;
+        }
+
+        .section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            position: relative;
+        }
+
+        .home-content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .section-content {
+            max-width: 50%;
+        }
+
+        .section-content h1 {
+            font-size: 56px;
+            font-weight: 700;
+        }
+
+        .section-content h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: aqua;
+        }
+
+        .section-content p {
+            font-size: 16px;
+        }
+
+        .btn-box {
+            display: inline-flex;
+            justify-content: center;
+            width: 150px;
+            height: 100%;
+            background: aqua;
+            border: 2px solid aqua;
+            border-radius: 8px;
+            font-size: 19px;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+
+        .btn-box a {
+            color: #081b29;
+        }
+
+        .btn-box a:hover {
+            color: aqua;
+        }
+
+        .home img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .about-content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0 10%;
+        }
+
+        .about-img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 30px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: aqua;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 2px solid aqua;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .skill-list, .experience-list, .education-list {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .skill-list li, .experience-list li, .education-list li {
+            color: aliceblue;
+            padding: 5px 0;
+        }
+
+        .skill-list li:hover, .experience-list li:hover, .education-list li:hover {
+            color: cyan;
+        }
+
+        .instagram-logo img, .linkedin-logo img {
+            width: 50px; 
+            height: 50px; 
+            transition: transform 0.3s ease;
+        }
+
+        .instagram-logo img:hover, .linkedin-logo img:hover {
+            transform: scale(1.1);
+        }
+
+        .contact-info {
+            color: white;
+            font-size: 18px;
+        }
+
+        .contact-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-link:hover {
+            color: cyan;
+        }
+       
+        
+.section-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-container {
+    position: relative;
+    width: 850px;
+    height: 450px;
+    margin:  10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-image {
+    width: 300%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.project-overlay h3 {
+    margin: 5;
+    font-size: 18px;
+}
+
+.project-overlay p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+}
+
+
+.view-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: aqua;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #00ffff;
+}
+
+
+.section-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-container {
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.project-title {
+    font-size: 18px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.project-description {
+    font-size: 14px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
+.project-overlay {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+
+.view-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: aqua;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #00ffff;
+}
+
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #00ffff;
+    color: #081b29;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #081b29;
+            color: aliceblue;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: aqua;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #00ffff;
+            color: #081b29;
+        }
+
+        .download-btn:active {
+            background-color: blue;
+            color: white;
+        }
+
+        .section-content {
+            padding: 20px;
+            text-align: center;
+        }
+        
